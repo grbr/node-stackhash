@@ -1,0 +1,23 @@
+{
+  "name": "stackhash",
+  "version": "1.0.0",
+  "description": "Visually-recognizable unified hash of an error stack",
+  "main": "lib/stackhash.js",
+  "scripts": {
+    "test": "node test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grbr/node-stackhash.git"
+  },
+  "keywords": [
+    "util",
+    "error-handling"
+  ],
+  "author": "grbr",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/grbr/node-stackhash/issues"
+  },
+  "homepage": "https://github.com/grbr/node-stackhash#readme"
+}
