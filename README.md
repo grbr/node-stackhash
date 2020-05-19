@@ -17,14 +17,14 @@ const error2 = { foo: 'bar' }
 const error3 = undefined
 
 console.log(stackhash(error1))
-// S-C313-9876
+// stackhash-S672362F9
 console.log(stackhash(error2))
-// E-1B9D-F8B9
+// stackhash-E1B9DF8B9
 console.log(stackhash(error3))
-// null
+// stackhash-null
 
 // with salt
 stackhash.addSalt('aaaaaaaaaa')
 console.log(stackhash(error1))
-// S-7CE8-9434
+// stackhash-SEBAAD9E6
 ```
